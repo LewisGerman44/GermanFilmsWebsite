@@ -1,0 +1,145 @@
+#title {
+	color: #000099;
+}
+
+body {
+	font-family: Geneva, Verdana, sans-serif;
+	background-color: #fff;
+	color: #000099;
+	font-size: 18px;
+}
+
+#navigationBar {
+	margin: auto;
+	height: 50px;
+	width: 700px;
+	text-align: center;
+	background-color: #000099;
+	border-radius: 44px;
+}
+
+#navigationBar span {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#navigationBar ul {
+	list-style-type: none;
+	padding: 10px;
+	font-size: 22px;
+	font-family: Geneva, Verdana, sans-serif;
+	margin: auto;
+}
+
+#navigationBar li {
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#navigationBar a {
+	background-position: bottom right;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	color: #fff;
+}
+
+#navigationBar a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+#navigationBar a:visited {
+	color: #fff;
+}
+
+footer {
+	width: auto;
+	text-align: center;
+	color: #fff;
+	background-color: #000099;
+}
+
+#homePagePoster {
+	width: 20%;
+}
+
+#welcomeText {
+	width: 80%;
+	height: 50%;
+	margin: auto;
+}
+
+#logo {
+	display: block;
+	width: 25%;
+	height: 50%;
+	border: 5px solid #000099;
+}
+
+#logoText {
+	width: 75%;
+	margin: auto;
+}
+
+#poster {
+	display: block;
+	width: 50%;
+	border: 5px solid #000099;
+}
+
+#posterText {
+	width: 75%;
+	margin: auto;
+}
+
+#audioText {
+	width: 75%;
+	margin: auto;
+}
+
+#reportpart1 {
+	margin: auto;
+}
+
+
+/* Mobile View */
+@media (max-width: 600px) {
+
+	#navigationBar {
+		display: block;
+		width: auto;
+		height: auto;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#navigationBar ul {
+		display: block;
+		margin: 0px;
+		padding: 0px;
+		font-size: 22px;
+	}
+
+	#navigationBar li {
+		display: block;
+		margin: 0px;
+		padding: 5px;
+	}
+
+	#navigationBar a {
+		display: block;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#homePagePoster {
+	width: 40%;
+	}
+
+	body {
+		font-size: 14px;
+	}
+}
